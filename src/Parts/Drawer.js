@@ -130,7 +130,7 @@ export default function PersistentDrawerLeft() {
           </ListItem>
           <ListItem button onClick={() => handleMenuClick('/jobs')}>
             <ListItemIcon><DeveloperModeIcon/></ListItemIcon>
-            <ListItemText> Trabalhos </ListItemText>
+            <ListItemText> Portifólio </ListItemText>
           </ListItem>
         </List>        
       </Drawer>

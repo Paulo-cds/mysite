@@ -57,26 +57,7 @@ const useStyles = makeStyles(() => ({
 const Page = ({title, Component}) => {
     const classes = useStyles()
     return(
-        <>
-            {/* <Typography variant='h3' className = 'text'>
-
-                 <div className = {classes.head}>
-                    <img src={logo} alt='Logo' className = {classes.logo}/>
-
-                </div> 
-
-                <div className = {classes.title}>
-                     <RubberBand duration='2s' delay='0.5s'> 
-                        {title}  
-                     </RubberBand>  
-                                 
-                </div>
-                 <div>
-                <a href="https://bit.ly/3oJJjIE" target="_blank" >
-                    <img src={Whats} alt='Logo whatsaap' className = {classes.whats}/>                    
-                </a>
-                </div>                             
-            </Typography> */}
+        <>            
             <Component className = {classes.text}/>
         </>
     )
