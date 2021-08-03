@@ -15,15 +15,12 @@ export const divTitle = styled.div`
 `
 
 export const textPrincipal = styled.span`           
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 4rem;           
     font-family: 'Roboto', sans-serif;    
     color: #fff;    
     width: 90%;  
     
-    @media(max-width:375px){
-        font-size: 1.5rem;
-    }
 `
 
 export const skills = styled.div`
@@ -31,6 +28,7 @@ export const skills = styled.div`
     place-items: center;
     text-align: center;            
     margin: 3.5rem auto 2rem;
+    padding-bottom: 4%;
 `
 
 export const title = styled.h3`

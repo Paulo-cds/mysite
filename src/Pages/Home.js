@@ -1,5 +1,6 @@
 import * as S from '../styles/StyleHome'
 import Typing from 'react-typing-animation'
+import ReactTypingEffect from 'react-typing-effect'
 import { makeStyles} from '@material-ui/core/styles'
 import {useState} from 'react'
 import Html from '../images/html-5.png'
@@ -22,21 +23,25 @@ const useStyles = makeStyles(() => ({
 const Home = () => { 
   const classes = useStyles();
   let [skills, setSkills] = useState('none')
+  let [page, setPage] = useState('none')
 
   const skillsLoad = setTimeout(() => {
     setSkills('grid');     
-  }, 3000);
+  }, 500);
 
-  window.onload = {skillsLoad}
+  const pageLoad = setTimeout(() => {
+    setPage('block'); 
+        
+  }, 500);
+
+  window.onload = {pageLoad, skillsLoad}
     return(
       <>
       
       <S.divTitle>
         <S.textPrincipal>    
           <S.titulo>
-            <Typing>
-            Desenvolvedor Front-end Júnior
-            </Typing>
+            <ReactTypingEffect style={{display: page}} text={["Desenvolvedor Front-end Júnior", 'HTML-CSS', 'JavaScript', 'ReactJS', 'Git - Github']} />            
           </S.titulo>          
         </S.textPrincipal>
       </S.divTitle>
