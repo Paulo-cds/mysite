@@ -38,6 +38,10 @@ export const Social = styled.div`
     justify-content: space-between;
     width: 100%;
     margin-top: -50%;
+
+    @media(max-width: 900px){
+        margin-top: -30%
+    }
     
 `
 
