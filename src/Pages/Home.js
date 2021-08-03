@@ -41,7 +41,7 @@ const Home = () => {
       <S.divTitle>
         <S.textPrincipal>    
           <S.titulo>
-            <ReactTypingEffect style={{display: page}} text={["Desenvolvedor Front-end Júnior", 'HTML-CSS', 'JavaScript', 'ReactJS', 'Git - Github']} />            
+            <ReactTypingEffect speed={'100'} eraseSpeed={'100'} eraseDelay={'400'} typingDelay={'300'} style={{display: page}} text={["Desenvolvedor Front-end Júnior", 'HTML-CSS', 'JavaScript', 'ReactJS', 'Git - Github']} />            
           </S.titulo>          
         </S.textPrincipal>
       </S.divTitle>
