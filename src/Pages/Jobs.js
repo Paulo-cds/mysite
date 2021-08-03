@@ -3,7 +3,7 @@ import titulo from '../styles/StyleJob'
 
 const Jobs = () => {
     return(
-        <titulo>Trabalhos</titulo>
+        <titulo>Trabalhos123</titulo>
     )
 }
 
