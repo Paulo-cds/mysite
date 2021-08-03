@@ -52,5 +52,6 @@ export const logos = styled.div`
 
 export const icons = styled.img`
     width: 5rem;
+    height: 5rem;
     margin: 1rem;
 `
