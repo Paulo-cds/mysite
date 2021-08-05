@@ -23,6 +23,7 @@ import instagram from '../images/instagram.png'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
 import perfil from '../images/perfil.jpg'
+import whats from '../images/whatsapp.png'
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode'
@@ -96,9 +97,10 @@ export default function PersistentDrawerLeft() {
       <S.DivPerfil>
         <S.Perfil src={perfil} />
         <S.Social>
-          <S.LinkSocial href='https://www.instagram.com/webdeveloper.paulorpd/' target='blanck'><S.ImgSocial src={instagram}/></S.LinkSocial>
-          <S.LinkSocial href='https://github.com/Paulo-cds' target='blanck'><S.ImgSocial src={github}/></S.LinkSocial>
-          <S.LinkSocial href='https://www.linkedin.com/in/paulorpd/' target='blanck'><S.ImgSocial src={linkedin}/></S.LinkSocial>
+          <S.LinkSocial href='https://www.instagram.com/webdeveloper.paulorpd/' target='blank'><S.ImgSocial src={instagram}/></S.LinkSocial>
+          <S.LinkSocial href='https://github.com/Paulo-cds' target='blank'><S.ImgSocial src={github}/></S.LinkSocial>
+          <S.LinkSocial href='https://www.linkedin.com/in/paulorpd/' target='blank'><S.ImgSocial src={linkedin}/></S.LinkSocial>
+          <S.LinkSocial href="https://api.whatsapp.com/send?phone=5512991643783" target='blank'><S.ImgSocial src={whats} /></S.LinkSocial>
         </S.Social>
       </S.DivPerfil>  
 

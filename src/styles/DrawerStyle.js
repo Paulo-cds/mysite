@@ -48,13 +48,13 @@ export const Social = styled.div`
 export const LinkSocial = styled.a`
     list-style: none;
     text-decoration: none;
-    color:white;            
+    color:white;  
+    margin: 0 5px;           
 `
 
 export const ImgSocial = styled.img`    
     width: 2.5rem;
     background-color: white;
-    border-radius: 100%;
-    margin-top: 0;  
+    border-radius: 100%;     
     box-shadow: 0 0 10px white;
 `
