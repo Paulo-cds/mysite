@@ -22,6 +22,11 @@ export const post = styled.div`
     height: fit-content;
     margin: 1rem .5rem;
     padding: 10px;
+    max-height: 35rem;
+
+    @media(max-width: 950px){
+        width: 90%;
+    }
 `
 
 export const image = styled.img`
@@ -29,11 +34,30 @@ export const image = styled.img`
     max-height: 30rem;
     object-fit: cover;
     object-position: top;
+    height: 15rem;    
+
+    &:hover{
+        margin-top:-4px;
+        box-shadow:4px 4px 4px #999;
+        margin: 1px solid black;
+        transition: all .2s ease-in-out;
+        
+    }
 `
 
 export const divDescrip = styled.div`
     transition-duration: 2s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;     
+`
+
+export const divLinks = styled.div`
+    display: flex;
+    justify-content: flex-end;
+`
+
+export const links = styled.img`
+    width: 2rem;
+    margin: .5rem .3rem;
 `
 
 export const displayDescrip = styled.button`
@@ -48,5 +72,7 @@ export const displayDescrip = styled.button`
 `
 
 export const description = styled.p`    
-   
+    overflow: auto;
+    overflow-x: hidden;
+      
 `

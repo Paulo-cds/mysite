@@ -52,4 +52,10 @@ export const icons = styled.img`
     width: 5rem;
     height: 5rem;
     margin: 1rem;
+
+    &:hover{
+        transform: rotateY(360deg); 
+        margin-top:-4px;           
+        transition: all .5s ease-in-out;
+    }
 `
