@@ -12,3 +12,33 @@
     
     
 }
+
+.goTop{
+    position: fixed;
+        width: 2%;
+        bottom: 1%;
+        left: 1%;
+        z-index: 99;        
+        transition: all 1s ease;
+
+        
+
+        @media(min-width:500px) and  (max-width: 800px){
+            width: 4%;
+        }
+
+        @media(max-width:499px){
+            width: 7%;
+        }
+                            
+}
+
+.goTop :hover{
+    cursor:pointer;
+}
+
+.goTop img{
+    width: 100%;
+    background: white;
+    border-radius: 100%;
+}

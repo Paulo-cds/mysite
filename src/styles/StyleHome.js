@@ -58,4 +58,5 @@ export const icons = styled.img`
         margin-top:-4px;           
         transition: all .5s ease-in-out;
     }
+
 `

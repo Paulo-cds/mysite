@@ -43,6 +43,8 @@ export const image = styled.img`
         transition: all .2s ease-in-out;
         
     }
+
+    
 `
 
 export const divDescrip = styled.div`
