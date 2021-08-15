@@ -25,11 +25,11 @@ export const DivPerfil = styled.div`
     } 
 
     @media(min-width:351px) and (max-width:425px){
-        left: 23%;
+        left: 20%;
     } 
 
     @media(max-width:350px){
-        left: 17%;
+        left: 15%;
     } 
 `
 
