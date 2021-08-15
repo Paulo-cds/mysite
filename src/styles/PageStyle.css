@@ -23,14 +23,22 @@
 
         
 
-        @media(min-width:500px) and  (max-width: 800px){
-            width: 4%;
-        }
+        
 
-        @media(max-width:499px){
-            width: 7%;
-        }
+       
                             
+}
+
+@media(min-width:500px) and  (max-width: 800px){
+    .goTop{
+        width: 4%;
+    }
+}
+
+@media(max-width:499px){
+    .goTop{
+        width: 7%;
+    }
 }
 
 .goTop :hover{
