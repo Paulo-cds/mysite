@@ -19,10 +19,36 @@ export const container = styled.div`
 export const post = styled.div`
     width: 48%;
     background-color: white;
-    height: fit-content;
+    max-height: 30rem;
     margin: 1rem .5rem;
     padding: 10px;
-    max-height: 35rem;
+     /* const hidden = []
+
+
+const hiddenDescrip = (N) => {
+    if(N.display ==='none'){
+        N.display  = 'block'
+        console.log(N)
+    } else {
+        N.display  = 'block'
+        console.log(N)
+    }
+    
+}    
+*/
+/* let hid = 'none'
+ 
+
+
+const hiddenDescrip = (N) => {        
+    if(N === 'none'){
+        hid='block'
+        console.log(hid)
+    } else {
+        hid='none'
+        console.log(hid)
+    }              
+}   */ 
 
     @media(max-width: 950px){
         width: 90%;

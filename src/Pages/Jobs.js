@@ -9,34 +9,7 @@ import githubLink from '../images/githubLink.png'
 
 
 const Jobs = () => {
-
-    /* const hidden = []
-
-
-    const hiddenDescrip = (N) => {
-        if(N.display ==='none'){
-            N.display  = 'block'
-            console.log(N)
-        } else {
-            N.display  = 'block'
-            console.log(N)
-        }
-        
-    }    
- */
-    /* let hid = 'none'
-     
-
-
-    const hiddenDescrip = (N) => {        
-        if(N === 'none'){
-            hid='block'
-            console.log(hid)
-        } else {
-            hid='none'
-            console.log(hid)
-        }              
-    }   */ 
+   
 
     
     return(
