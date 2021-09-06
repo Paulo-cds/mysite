@@ -18,40 +18,20 @@ export const container = styled.div`
 
 export const post = styled.div`
     width: 48%;
-    background-color: white;
+    background-color: white;    
     max-height: 30rem;
     margin: 1rem .5rem;
     padding: 10px;
-     /* const hidden = []
+    position: relative;  
+    overflow: auto;
+    overflow-x: hidden; 
 
-
-const hiddenDescrip = (N) => {
-    if(N.display ==='none'){
-        N.display  = 'block'
-        console.log(N)
-    } else {
-        N.display  = 'block'
-        console.log(N)
+    ::-webkit-scrollbar {
+        display: none;
     }
-    
-}    
-*/
-/* let hid = 'none'
- 
-
-
-const hiddenDescrip = (N) => {        
-    if(N === 'none'){
-        hid='block'
-        console.log(hid)
-    } else {
-        hid='none'
-        console.log(hid)
-    }              
-}   */ 
 
     @media(max-width: 950px){
-        width: 90%;
+        width: 100%;
     }
 `
 
@@ -75,7 +55,8 @@ export const image = styled.img`
 
 export const divDescrip = styled.div`
     transition-duration: 2s;
-    transition-timing-function: ease;     
+    transition-timing-function: ease;   
+    
 `
 
 export const divLinks = styled.div`
@@ -89,10 +70,12 @@ export const links = styled.img`
 `
 
 export const displayDescrip = styled.button`
-    background-color: blue;
+    border-radius: 50%;    
     width: 30px;
     height: 30px;
-
+    position: absolute;
+    left: 10px;
+    top: 260px;
 
     &:hover{
         cursor: pointer;
@@ -101,6 +84,21 @@ export const displayDescrip = styled.button`
 
 export const description = styled.p`    
     overflow: auto;
-    overflow-x: hidden;
-      
+    overflow-x: hidden;    
+    
+`
+
+export const adiciona = styled.img`
+    width:100%;
+    transition: all .5s ease-in-out;
+
+    
+    :hover{
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+
+        transform: rotate(360deg);
+    }
 `
