@@ -40,10 +40,11 @@ const Jobs = () => {
                         </S.divLinks>
                         <S.description style={{display:trequinhosDisplay}}>
 
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                            
+                           Projeto Full-Stack. <br/><br/>
+                           Back-End construido em NodeJS rodando em Heroku, banco de dados
+                            MongoDB Atlas. <br/>
+                                Esse projeto contém login de administrador para adicionar, editar e/ou excluir
+                                produtos, utilizando local storage.
                         </S.description>
                     </S.divDescrip>
                 </S.post>
@@ -62,9 +63,10 @@ const Jobs = () => {
                             <a href='https://github.com/Paulo-cds/barber-shop-react' target='blank'><S.links src = {githubLink}/></a>
                         </S.divLinks>
                         <S.description style={{display:barberDisplay}}>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                            Projeto construido com ReactJs. <br/><br/>
+                             Esse projeto faz parte do conteúdo do curso Formação Full Stack Javascript,
+                            inicialmente durante o curso feito com HTML, CSS e JavaScript, depois refiz 
+                            utilizando React e Styled Components.
                         </S.description>
                     </S.divDescrip>
                 </S.post>
@@ -83,9 +85,11 @@ const Jobs = () => {
                             <a href='https://github.com/Paulo-cds/gupy' target='blank'><S.links src = {githubLink}/></a>
                         </S.divLinks>
                         <S.description style={{display:questionDisplay}}>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                            Projeto Front-end ReactJs. <br/><br/>
+                            Esse projeto consome API de perguntas, na página inicial o usuário seleciona
+                            a quantidade de perguntas que deseja responder, que é passado via context api e consulta API
+                            para gerar as perguntas e respostas. O resultado é guardado no local storage onde é possível consultar o resultado anterior 
+                            numa próxima consulta. Também construido utilizando Material-Ui
                         </S.description>
                     </S.divDescrip>
                 </S.post>
@@ -105,9 +109,10 @@ const Jobs = () => {
                             <a href='https://github.com/Paulo-cds/trunfoHeros' target='blank'><S.links src = {githubLink}/></a>
                         </S.divLinks>
                         <S.description style={{display:trunfoDisplay}}>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                            Projeto Front-end ReactJs com Materail-Ui <br/><br/>
+                            Projeto consome API de super heróis, onde o usuário seleciona o números de rounds desejado
+                            e após é consultada a api onde sorteia as cartas para o jogador e para máquina e compara os atributos de cada,
+                            ao final é demonstrado que venceu ou se empatou o jogo.
                         </S.description>
                     </S.divDescrip>
                 </S.post>

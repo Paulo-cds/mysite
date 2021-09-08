@@ -85,7 +85,9 @@ export const displayDescrip = styled.button`
 export const description = styled.p`    
     overflow: auto;
     overflow-x: hidden;    
-    
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
 `
 
 export const adiciona = styled.img`
