@@ -8,6 +8,9 @@ import Css from '../images/css.png'
 import Javascript from '../images/javascript.png'
 import React from '../images/react.png'
 import Git from '../images/Git.png'
+import Typescript from '../images/typescript.png'
+import Sass from '../images/sass.png'
+import StyledComponents from '../images/styledComponents.png'
 
 import {Flip} from 'animate-css-styled-components'
 
@@ -56,6 +59,9 @@ const Home = () => {
             <S.icons src={Javascript} alt='Javascript'/>
             <S.icons src={React} alt='React'/>
             <S.icons style={{backgroundColor: 'white'}} src={Git} alt='Git'/>
+            <S.icons src={Typescript} alt='Typescript'/>
+            <S.icons src={Sass} alt='Sass'/>
+            <S.icons style={{borderRadius: '60%'}} src={StyledComponents} alt='Styled Components'/>
           </S.logos>
         </Flip>
       </S.skills>
