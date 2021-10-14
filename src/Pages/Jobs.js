@@ -7,6 +7,8 @@ import site from '../images/site.png'
 import superTrunfo from '../images/trunfoheros.png'
 import githubLink from '../images/githubLink.png'
 import adicionar from '../images/adicionar.png'
+import trailerFlix from '../images/trailer-flix.png'
+import mario from '../images/mario-seven.png'
 
 
 const Jobs = () => {
@@ -15,6 +17,8 @@ const Jobs = () => {
     const [barberDisplay, setBarberDisplay] = useState('none')
     const [questionDisplay,setQuestionDisplay] = useState('none')
     const [trunfoDisplay,setTrunfoDisplay] = useState('none')
+    const [trailerDisplay,setTrailerDisplay] = useState('none')
+    const [marioDisplay,setMarioDisplay] = useState('none')
 
     
     
@@ -113,6 +117,49 @@ const Jobs = () => {
                             Projeto consome API de super heróis, onde o usuário seleciona o números de rounds desejado
                             e após é consultada a api onde sorteia as cartas para o jogador e para máquina e compara os atributos de cada,
                             ao final é demonstrado que venceu ou se empatou o jogo.
+                        </S.description>
+                    </S.divDescrip>
+                </S.post>
+
+                <S.post>
+                    <S.image src={trailerFlix} alt={'TrailerFlix'} style={{objectFit: 'cover',
+                    objectPosition: 'center'}}/>
+                    <S.divDescrip>
+                        <S.divLinks>
+                            <S.displayDescrip onClick={() => {trailerDisplay === 'none' 
+                            ? setTrailerDisplay('block') 
+                            : setTrailerDisplay('none') }} label={'Descrição'}>
+                                <S.adiciona  src={adicionar} />
+                            </S.displayDescrip>
+                            
+                            <a href='https://trailer-flix-pi.vercel.app/' target='blank'> <S.links src={site}/></a>
+                            <a href='https://github.com/Paulo-cds/trailerFlix' target='blank'><S.links src = {githubLink}/></a>
+                        </S.divLinks>
+                        <S.description style={{display:trailerDisplay}}>
+                            Projeto utilizando HTML, CSS(SASS) e JavaScript, reprodução do layout da Netflix,
+                            onde é possível assistir o trailer da série ou filme selecionado linkado com
+                            o youtube.
+                        </S.description>
+                    </S.divDescrip>
+                </S.post>
+
+                <S.post>
+                    <S.image src={mario} alt={'Mario'} style={{objectFit: 'cover',
+                    objectPosition: 'center'}}/>
+                    <S.divDescrip>
+                        <S.divLinks>
+                            <S.displayDescrip onClick={() => {marioDisplay === 'none' 
+                            ? setMarioDisplay('block') 
+                            : setMarioDisplay('none') }} label={'Descrição'}>
+                                <S.adiciona  src={adicionar} />
+                            </S.displayDescrip>
+                            
+                            <a href='https://mario-seven.vercel.app/' target='blank'> <S.links src={site}/></a>
+                            <a href='https://github.com/Paulo-cds/dino' target='blank'><S.links src = {githubLink}/></a>
+                        </S.divLinks>
+                        <S.description style={{display:marioDisplay}}>
+                        Projeto utilizando HTML, CSS(SASS) e JavaScript, reprodução do jogo do dinossauro sem internet
+                        modificado para o jogo do Mario Bros.
                         </S.description>
                     </S.divDescrip>
                 </S.post>
