@@ -25,6 +25,7 @@ const Card = ({
         heightCard === '20rem'
         ? setHeightCard('30rem')
         : setHeightCard('20rem')
+       
     }
 
     return(

@@ -6,6 +6,8 @@ import questions from '../images/questions.png'
 import superTrunfo from '../images/trunfoheros.png'
 import trailerFlix from '../images/trailer-flix.png'
 import mario from '../images/mario-seven.png'
+import restaurantes from '../images/axeirestaurantes.png'
+import lua from '../images/lua.png'
 import Card from '../components/Card'
 
 
@@ -17,6 +19,8 @@ const Jobs = () => {
     const [trunfoDisplay,setTrunfoDisplay] = useState('none')
     const [trailerDisplay,setTrailerDisplay] = useState('none')
     const [marioDisplay,setMarioDisplay] = useState('none')
+    const [restauranteDisplay,setRestauranteDisplay] = useState('none')
+    const [luaDisplay,setLuaDisplay] = useState('none')
 
     
     
@@ -105,6 +109,29 @@ const Jobs = () => {
                     title='Projeto Front-end'
                     text='Utilizando HTML, CSS(SASS) e JavaScript, reprodução do jogo do dinossauro sem internet
                     modificado para o jogo do Mario Bros.'
+                />
+
+                <Card
+                    image={restaurantes}
+                    altImg='Restaurantes'
+                    web='https://axeirestaurantes.vercel.app/'
+                    git='https://github.com/Paulo-cds/restaurantsgooglemaps'
+                    display={restauranteDisplay}
+                    setDisplay={setRestauranteDisplay}
+                    title='Projeto Front-end'
+                    text='Projeto construído no Bootcamp React Web Developer da Digital Innovation One.
+                    A aplicação é baseada no Google Maps, onde foi integrada com o API do Goole e busca os restaurantes próximos a localização do usuário. Também é possível realizar buscas por tipo de serviço (ex: Pizza, Lanche, Sushi).'
+                />
+
+                <Card
+                    image={lua}
+                    altImg='Lua 2'
+                    web='https://lua2.com.br'
+                    git='https://github.com/Paulo-cds/lua'
+                    display={luaDisplay}
+                    setDisplay={setLuaDisplay}
+                    title='Projeto Front-end'
+                    text='Projeto construído utilizando HTML, CSS e JavaScript, é uma LandPage para empresa de serviços náuticos.'
                 />
                 
             </S.container>
